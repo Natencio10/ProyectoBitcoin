@@ -1,0 +1,99 @@
+html, body{
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    scroll-behavior: smooth;
+}
+#contenedor{
+    background: url(fondopagina.jpg) no-repeat fixed center;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.logo{
+        border-radius: 100%;
+        width: 120px;
+        height: 120px;
+        float: left;
+        margin-right:10px;
+        line-height: 150px;
+        margin-top: 15px;
+        margin-left: 15px;
+}
+.logo2{
+    border-radius: 100%;
+    width: 120px;
+    height: 140px;
+    float: left;
+    margin-right:10px;
+    line-height: 150px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#encabezado{
+    width:100%;
+    height: 150px;
+    }
+    #encabezado h1{
+    margin:0px;
+    width: 90%;
+    line-height: 150px;
+    color: white;
+    font-size: 40pt;
+    text-align: center;
+    }
+    #navegacion{
+    width:100%;
+    }
+    #navegacion ol{
+    display: flex;
+    padding:0px;
+    margin:0px;
+    float: right;
+    }
+    #navegacion ol li{
+    list-style: none;
+    border-right: 1px solid rgb(0, 41, 128);
+    display: block;
+    }
+    #navegacion ol li a{
+        color:white;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 15px 18px;
+        display: table;
+        }
+        #navegacion ol li a:hover{
+        color:rgb(0, 128, 6);
+        }
+        .active{
+        color:red;
+        }
+        .titulo1{
+            text-align: center;
+            color: aliceblue;
+            font-size: 25pt;
+
+        }
+        .parrafo1{
+            width: 85%;
+            text-align: justify;
+            font-size: 12pt;
+            color: aliceblue;
+        }
+        #pie{
+            text-align: center;
+            padding-top:8px;
+            color:white;
+            background: url(fondopagina.jpg) no-repeat fixed center;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+             height: 10%;
+             width: 100%;
+             position: absolute;
+        }
